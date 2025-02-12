@@ -47,14 +47,8 @@ CREATE TABLE Customers (
 );
 
 
-###2. Data Exploration & Cleaning
-**Record Count**: Determine total records in the dataset.
-**Customer Count**: Count unique customers.
-**Category Count**: Identify unique product categories.
-**Null Value Check**: Remove records with missing data.
-
-
-SELECT COUNT(*) FROM retail_sales;
+**DATA CLEANIND QUERY
+```SELECT COUNT(*) FROM retail_sales;
 SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
 SELECT DISTINCT category FROM retail_sales;
 
@@ -62,6 +56,10 @@ DELETE FROM retail_sales
 WHERE 
     sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
     gender IS NULL OR age IS NULL OR category IS NULL OR 
-    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL
+```
+
+
+
 
 
