@@ -48,10 +48,10 @@ CREATE TABLE Customers (
 
 
 ###2. Data Exploration & Cleaning
-Record Count: Determine total records in the dataset.
-Customer Count: Count unique customers.
-Category Count: Identify unique product categories.
-Null Value Check: Remove records with missing data.
+**Record Count**: Determine total records in the dataset.
+**Customer Count**: Count unique customers.
+**Category Count**: Identify unique product categories.
+**Null Value Check**: Remove records with missing data.
 
 
 SELECT COUNT(*) FROM retail_sales;
